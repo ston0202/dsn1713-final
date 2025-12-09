@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+$primary: #D8E6E9;
+$secondary: #861F29;
+
+$font-family-sans-serif: "Montserrat", sans-serif;
+$headings-font-family: "Bricolage Grotesque", serif;
+
+
+nav{
+  border-bottom-style: solid;
+  border-width: 6px;
+  border-color: $secondary;
+}
+#hero {
+  height: 750px;
+  background-color: $secondary;
+  background-image: url(../images/home-hero-pic.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero .d-flex {
+  height: 750px;
+}
+
+#herotext{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding-bottom: 3em;
+}
+
+.bg-secondary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+#welcomebuttons{
+  display: inline-block
+}
+
+#eventbuttons{
+  display: inline-block
+}
+
+
+ul{
+  list-style: none;
+}
+
+footer{
+  border-top-style: solid;
+  border-width: 6px;
+  border-color: $secondary;
+}
+
+#heroabout {
+  height: 750px;
+  background-color: $secondary;
+  background-image: url(../images/about-us-hero.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#herotextabout{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding-bottom: 3em;
+}
+
+
+$h1-font-size: 1rem * 4;
+$h2-font-size: 1rem * 2;
+$h3-font-size: 1rem * 1.65;
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
